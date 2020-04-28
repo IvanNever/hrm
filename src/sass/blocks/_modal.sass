@@ -36,14 +36,26 @@
 		line-height: 14px
 		font-weight: 500
 		text-align: center
+	.error
+		border: 1px solid $main-color
+	label.error
+		border: none
+		text-align: center
+		margin-bottom: 15px
+
 #consultation, #order, #success
 	display: none
 
 @media ( max-width: 575px )
-    .modal
-        width: 280px
-        padding: 18px
-        &__close
-            position: absolute
-            top: 10px
-            right: 10px
+	.modal
+		width: 280px
+		padding: 40px 15px
+		&__close
+			position: absolute
+			top: 10px
+			left: 50%
+			transform: translateX(-50%)
+			font-size: 30px
+			text-align: center
+		label.error
+			font-size: 12px

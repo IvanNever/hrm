@@ -1,28 +1,35 @@
 .consultation
-    padding: 100px 0 90px 0
-    background: url(../img/feedback_bg.png) center (center/cover) no-repeat
-    min-height: 680px
-    .title
-        color: #ffffff
-    &__descr
-        margin-top: 80px
-        color: #ffffff
-        font-size: 20px
-        line-height: 24px
-        font-weight: 500
+	padding: 100px 0 90px 0
+	background: url(../img/feedback_bg.png) center (center/cover) no-repeat
+	min-height: 680px
+	.title
+		color: #ffffff
+	&__descr
+		margin-top: 80px
+		color: #ffffff
+		font-size: 20px
+		line-height: 24px
+		font-weight: 500
+	.error
+		border: 1px solid $main-color
+	label.error
+		border: none
+		color: #ffffff
+		text-align: center
+		margin-bottom: 15px
 
 @media (max-width: 767px)
-    .consultation
-        padding: 50px 0 40px 0
-        min-height: 0
-        &__descr
-            margin-top: 30px
-            text-align: center
+	.consultation
+		padding: 50px 0 40px 0
+		min-height: 0
+		&__descr
+			margin-top: 30px
+			text-align: center
 
 @media (max-width: 575px)
-    .consultation
-        padding: 40px 0
-        &__descr
-            margin-top: 20px
-            font-size: 18px
-            line-height: 22px
+	.consultation
+		padding: 40px 0
+		&__descr
+			margin-top: 20px
+			font-size: 18px
+			line-height: 22px
