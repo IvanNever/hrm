@@ -108,6 +108,9 @@ $(document).ready(function(){
                 return false;
     });
 
+    //Animations
+    new WOW().init();
+
 });
 
   });
